@@ -14,8 +14,8 @@ A prometheus exporter for echo
 package main
 
 import (
-	"github.com/0neSe7en/echo-prometheus"
-	"github.com/labstack/echo"
+	"github.com/ghiac/echo-v4-prometheus"
+	"github.com/labstack/echo/v4"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
